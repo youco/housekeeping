@@ -1,5 +1,25 @@
 # Singning Secretsを実装する
 
+{% embed url="https://api.slack.com/docs/verifying-requests-from-slack" %}
+
+## EventAPI用のライブラリ
+
+{% embed url="https://github.com/slackapi/python-slack-events-api" %}
+
+### ライブラリの呼び出し
+
+```python
+import os
+import sys
+from slackeventsapi import SlackEventAdapter
+
+# Slack signing secret認証チェック
+SIGNING_SECRET  = os.environ['SIGNING_SECRET']
+slack_events_adapter = SlackEventAdapter(SIGNING_SECRET, endpoint="/slack/events")
+```
+
+## スラッシュコマンド用
+
 インポートは`import slack_SigningSecret`
 
 {% code title="slack\_SigningSecret.py" %}
