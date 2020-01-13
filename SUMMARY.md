@@ -21,6 +21,7 @@
 * [【作成中】定期実行](lambda-1/zuo-cheng-zhong-ding-qi-shi-hang.md)
 * [【作成中】Slack/コマンド](lambda-1/slackkomando.md)
 * [CloudWatchロググループ期間を一括設定](lambda-1/cloudwatchrogugurpuwo.md)
+* [Singning Secretsを実装する](lambda-1/singning-secretswosuru.md)
 * [よく使うサービスをピン留めする](yokuusbisuwopinmesuru.md)
 * [CroudTrail](croudtrail.md)
 * [Identity and Access Management \(IAM\)](iam.md)
