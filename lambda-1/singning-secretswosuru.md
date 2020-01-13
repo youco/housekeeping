@@ -1,5 +1,8 @@
 # Singning Secretsを実装する
 
+インポートは`import slack_SigningSecret`
+
+{% code title="slack\_SigningSecret.py" %}
 ```python
 import os
 import hmac
@@ -37,6 +40,7 @@ def verify_request(event):
     return hmac.compare_digest(request_hash, signature)
 
 ```
+{% endcode %}
 
 
 
