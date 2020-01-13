@@ -4,9 +4,13 @@ description: ローカル環境：python 3.7 windows10
 
 # レイヤー作成方法
 
+レイヤのイメージ
+
+![](https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F239179%2F9324220a-e369-1bcb-12dc-40fc37570514.png?ixlib=rb-1.2.2&auto=format&gif-q=60&q=75&s=b8e701408344fd0af351ed93707c084d)
+
 ## PKGの準備
 
-```text
+```bash
 $ mkdir python
 $ pip install -t ./python requests #　-> pythonフォルダでPKGをインストール
 
