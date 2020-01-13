@@ -13,7 +13,7 @@
 
 {% embed url="https://docs.aws.amazon.com/ja\_jp/lambda/latest/dg/limits.html" %}
 
-## Lambda関数のバージョン（環境）ごとにAPI Gatewayをアタッチする
+## Lambda関数のバージョン（環境）ごとにAPI Gatewayをアタッチする→CLIでマッピングが必要だったので保留
 
 ### Lambdaの設定
 

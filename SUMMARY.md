@@ -11,6 +11,7 @@
 ## Lambda <a id="lambda-1"></a>
 
 * [Lambda](lambda-1/lambda-1.md)
+* [Eventを契機にLambdaを動かす](lambda-1/eventwonilambdawokasu.md)
 * [レイヤー作成方法](lambda-1/reiy.md)
 * [Tips:Cloudwatchログ出力、ログレベル](lambda-1/tipscloudwatchrogurogureberu.md)
 * [Untitled](lambda-1/untitled.md)
