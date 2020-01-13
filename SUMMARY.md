@@ -30,4 +30,5 @@
 ## Google colab
 
 * [Colab](google-colab/colab.md)
+* [slack](slack.md)
 
