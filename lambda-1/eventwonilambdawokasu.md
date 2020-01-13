@@ -1,4 +1,4 @@
-# Eventを契機にLambdaを動かす
+# Slack Eventを契機にLambdaを動かす
 
 ## Slack App作成
 
@@ -17,7 +17,7 @@
 
 ## SlackにEventを受信するためのテストコードを実装
 
-```text
+```python
 import json
 
 def lambda_handler(event, context):
