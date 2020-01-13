@@ -12,7 +12,7 @@
 
 * [Lambda](lambda-1/lambda-1.md)
 * [Slack Eventを契機にLambdaを動かす](lambda-1/eventwonilambdawokasu.md)
-* [DM警察 on Lambda](lambda-1/dm-jing-cha-on-lambda.md)
+* [リアク字がついたら、なにかする](lambda-1/dm-jing-cha-on-lambda.md)
 * [レイヤー作成方法](lambda-1/reiy.md)
 * [Tips:Cloudwatchログ出力、ログレベル](lambda-1/tipscloudwatchrogurogureberu.md)
 * [Untitled](lambda-1/untitled.md)
