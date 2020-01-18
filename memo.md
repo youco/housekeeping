@@ -2,6 +2,10 @@
 
 {% embed url="https://qiita.com/coto/items/8561113fbafd6133248a" %}
 
+{% embed url="https://qiita.com/mido\_app/items/fcbbdb2bcce3edf0d3f5\#slack-api%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E4%B8%8A%E3%81%AB%E3%83%9C%E3%83%83%E3%83%88%E3%83%A6%E3%83%BC%E3%82%B6%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B" %}
+
+
+
 {% embed url="https://www.slideshare.net/AmazonWebServicesJapan" %}
 
 {% embed url="https://www.slideshare.net/AmazonWebServicesJapan/20190813-aws-black-belt-online-seminar-serverless" %}
