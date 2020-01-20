@@ -39,6 +39,7 @@ def verify(event):
 def post_slack():
 
     # 設定
+    WEBHOOK_GEN = os.environ['WEBHOOK_GEN']
     SLACK_POST_URL = WEBHOOK_GEN
     method = "POST"
 
