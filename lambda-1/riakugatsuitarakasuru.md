@@ -11,9 +11,17 @@ import hashlib
 from urllib.parse import parse_qs
 import urllib.request
 import logging
-logger = logging.getLogger(__name__)
-logger.setLevel(os.environ['LOG_LEVEL']) # 環境変数の設定値は大文字
-
+# log setting
+logger = logging.getLogger()
+loglevel  = os.environ['LOG_LEVEL'] # 環境変数の設定値は大文字
+logger.setLevel(loglevel)
+logger = logging.getLogger()
+formatter = logging.Formatter(
+    '[%(levelname)s]\t%(aws_request_id)s\t%(filename)s\t%(funcName)s\t%(lineno)d\t%(message)s\n',
+    '%Y-%m-%dT%H:%M:%S'
+)
+for handler in logger.handlers:
+    handler.setFormatter(formatter)
 def verify(event):
     # リクエストがSlackからのものかチェック
     # https://api.slack.com/docs/verifying-requests-from-slack
