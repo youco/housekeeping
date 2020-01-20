@@ -17,7 +17,7 @@ loglevel  = os.environ['LOG_LEVEL'] # 環境変数の設定値は大文字
 logger.setLevel(loglevel)
 logger = logging.getLogger()
 formatter = logging.Formatter(
-    '[%(levelname)s]\t%(aws_request_id)s\t%(filename)s\t%(funcName)s\t%(lineno)d\t%(message)s\n',
+    '[%(levelname)s]\t%(filename)s\t%(funcName)s\t%(lineno)d\t%(message)s\n[%(aws_request_id)s]',
     '%Y-%m-%dT%H:%M:%S'
 )
 for handler in logger.handlers:
