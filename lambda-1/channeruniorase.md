@@ -63,26 +63,6 @@ def lambda_handler(event, context):
     #受信したjsonをLogsに出力
     logger.info(json.dumps(event))
 
-    # json処理
-    if 'body' in event:
-        body = json.loads(event.get('body'))
-    elif 'token' in event:
-        body = event
-    else:
-        logger.error('unexpected event format')
-        return {'statusCode': 500, 'body': 'error:unexpected event format'}
-
-    #url_verificationイベントに返す
-    if 'challenge' in body:
-        challenge = body.get('challenge')
-        logger.info('return challenge key %s:', challenge)
-        return {
-            'isBase64Encoded': 'true',
-            'statusCode': 200,
-            'headers': {},
-            'body': challenge
-        }
-
     if "X-Slack-Retry-Reason" in event["headers"]:
         logger.info("lambdaがリトライしようとしたので、予期せぬ処理とみなして終了")
         return { "statusCode": 200 }
