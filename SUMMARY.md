@@ -14,6 +14,7 @@
 * [Slack Eventを契機にLambdaを動かす](lambda-1/eventwonilambdawokasu.md)
 * [リアク字がついたら、なにかする](lambda-1/dm-jing-cha-on-lambda.md)
 * [リアク字がついたら何かする３](lambda-1/riakugatsuitarakasuru.md)
+* [新規チャンネル追加時にお知らせ](lambda-1/channeruniorase.md)
 * [レイヤー作成方法](lambda-1/reiy.md)
 * [Tips:Cloudwatchログ出力、ログレベル](lambda-1/tipscloudwatchrogurogureberu.md)
 * [Untitled](lambda-1/untitled.md)
