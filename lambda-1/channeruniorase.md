@@ -41,7 +41,7 @@ def post_slack():
     method = "POST"
 
     # メッセージの内容
-    message = "Lambdaのテストです created channel"
+    message = "Lambdaのテストです created channel\n> <https://api.slack.com/methods/channels.history|kkk>jj"
     send_data = {
         "text": message
     }
