@@ -31,6 +31,17 @@ def lambda_handler(event, context):
     return { "statusCode": 200 }
 ```
 
+```python
+import json
+import os
+
+def lambda_handler(event: dict, context):
+
+    # EventのVerify用(lambdaプロキシ統合はチェックしない)
+    if "challenge" in event:
+        return event.get("challenge")
+```
+
 ## APIエンドポイント情報を設定
 
 1. Slack EventsをONにして、Request URLにコピーしたAPIエンドポイントを貼り付け →Verified　※通らなかったら、なにか不備がある
