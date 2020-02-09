@@ -7,6 +7,7 @@
 * [AWSのセットアップ１](aws/awsno.md)
 * [AWSのセットアップ（lambda実行ユーザの作成）](aws/awsnosettoappu.md)
 * [Slack Slashコマンド作成方法の概要（API Gateway→Lambda）](aws/slack-slashkomandonoapi-gatewaylambda.md)
+* [AWS全体構成](aws/aws-quan-ti-gou-cheng.md)
 
 ## Lambda <a id="lambda-1"></a>
 
