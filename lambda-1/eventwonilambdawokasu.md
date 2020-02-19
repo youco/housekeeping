@@ -18,6 +18,31 @@
 ## SlackにEventを受信するためのテストコードを実装
 
 ```python
+# -*- coding: utf-8 -*-
+import os
+import json
+import logging
+from urllib.parse import parse_qs
+
+# ログ設定
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+def lambda_handler(event, context):
+    params_body = json.loads(event.get('body'))
+    logger.info(params_body)
+    params_challenge = params_body['challenge']
+    logger.info(params_challenge)
+    response =  {
+        'statusCode':200,
+        'body': params_challenge
+        
+    }
+    logger.info(response)
+    return response
+```
+
+```python
 import json
 
 def lambda_handler(event, context):
